@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="515.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.mahadi.demo1cores.CourseResController">
+   <children>
+      <Label layoutX="14.0" layoutY="45.0" text="Stusent ID" />
+      <TextField fx:id="StudentIdfxid" layoutX="84.0" layoutY="41.0" />
+      <CheckBox fx:id="scholarshipChoisboxFxid" layoutX="6.0" layoutY="84.0" mnemonicParsing="false" />
+      <Label layoutX="41.0" layoutY="83.0" text="Has Scholarshop" />
+      <Label layoutY="120.0" text="SCholar Ship in %" />
+      <TextField fx:id="schilarshopInPercentfxid" layoutX="98.0" layoutY="115.0" prefHeight="25.0" prefWidth="61.0" />
+      <Label layoutX="248.0" layoutY="45.0" prefHeight="17.0" prefWidth="85.0" text="Sel course" />
+      <ComboBox fx:id="SelCouseChoiscoxFxid" layoutX="316.0" layoutY="41.0" onAction="#combowboxCouseOnAction" prefHeight="25.0" prefWidth="61.0" />
+      <Label layoutX="215.0" layoutY="92.0" prefHeight="17.0" prefWidth="61.0" text="no of credit" />
+      <TextField fx:id="showNoOfCredittextfildFxid" layoutX="291.0" layoutY="88.0" prefHeight="25.0" prefWidth="85.0" />
+      <Label layoutX="212.0" layoutY="128.0" prefHeight="17.0" prefWidth="55.0" text="Sel Sec" />
+      <ComboBox fx:id="selSectionCombobodFxid" layoutX="276.0" layoutY="124.0" prefHeight="25.0" prefWidth="105.0" />
+      <Button layoutX="440.0" layoutY="47.0" mnemonicParsing="false" onAction="#AddCOnAction" prefHeight="108.0" prefWidth="85.0" text="Add the&#10; course&#10; to register" />
+      <Button layoutX="536.0" layoutY="47.0" mnemonicParsing="false" onAction="#ProCOnAction" prefHeight="108.0" prefWidth="85.0" text="Procid &#10;to&#10; &#10;gegister" />
+      <TextArea fx:id="textAreaFxif" layoutX="42.0" layoutY="222.0" prefHeight="200.0" prefWidth="538.0" />
+      <Label layoutX="40.0" layoutY="184.0" prefHeight="17.0" prefWidth="243.0" text="After reg reg course details" />
+   </children>
+</AnchorPane>

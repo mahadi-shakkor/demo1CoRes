@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d5afb5c-0758-4968-b8fb-57969a8ed378" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oop/mahadi/demo1cores/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oop/mahadi/demo1cores/CourseResController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oop/mahadi/demo1cores/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/oop/mahadi/demo1cores/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/oop/mahadi/demo1cores/courseRes.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/oop/mahadi/demo1cores/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/Adult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/CR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/Children.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/FXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/mainpkg/demo/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09-06-24/target/classes/module-info.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2iMdc7QTJCG50Onu45iZtgKuQ1F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oop.mahadi.demo1cores.HelloApplication" />
+      <module name="demo1CoRes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oop.mahadi.demo1cores.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d5afb5c-0758-4968-b8fb-57969a8ed378" name="Changes" comment="" />
+      <created>1719304458922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719304458922</updated>
+    </task>
+    <servers />
+  </component>
+</project>
