@@ -4,11 +4,13 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="515.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.mahadi.demo1cores.CourseResController">
+<AnchorPane prefHeight="611.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.mahadi.demo1cores.CourseResController">
    <children>
       <Label layoutX="14.0" layoutY="45.0" text="Stusent ID" />
       <TextField fx:id="StudentIdfxid" layoutX="84.0" layoutY="41.0" />
@@ -26,5 +28,14 @@
       <Button layoutX="536.0" layoutY="47.0" mnemonicParsing="false" onAction="#ProCOnAction" prefHeight="108.0" prefWidth="85.0" text="Procid &#10;to&#10; &#10;gegister" />
       <TextArea fx:id="textAreaFxif" layoutX="42.0" layoutY="222.0" prefHeight="200.0" prefWidth="538.0" />
       <Label layoutX="40.0" layoutY="184.0" prefHeight="17.0" prefWidth="243.0" text="After reg reg course details" />
+      <TableView fx:id="tableViewCollum" layoutX="47.0" layoutY="422.0" prefHeight="200.0" prefWidth="587.0">
+        <columns>
+          <TableColumn fx:id="idcollum" prefWidth="34.0" text="ID" />
+            <TableColumn fx:id="scCollum" prefWidth="97.33331298828125" text="Has Scholarship" />
+            <TableColumn fx:id="addCourseCollum" prefWidth="88.66676330566406" text="Added Course" />
+            <TableColumn fx:id="procidCourseCollum" minWidth="0.0" prefWidth="163.99993896484375" text="Procod to  Register Course " />
+            <TableColumn fx:id="infoCollum" prefWidth="47.333282470703125" text="INfo" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>

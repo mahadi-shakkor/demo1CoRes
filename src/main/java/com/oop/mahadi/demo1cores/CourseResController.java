@@ -8,6 +8,7 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 
 public class CourseResController {
 
@@ -33,14 +34,34 @@ public class CourseResController {
     private TextArea textAreaFxif;
 
     ArrayList<Course> c2arr =new ArrayList<>();
+    @FXML
+    private TableColumn<DemoClass, String> addCourseCollum;
 
+    @FXML
+    private TableColumn<DemoClass, String> idcollum;
 
+    @FXML
+    private TableColumn<DemoClass, String> infoCollum;
+
+    @FXML
+    private TableColumn<DemoClass, String> procidCourseCollum;
+
+    @FXML
+    private TableColumn<DemoClass, String> scCollum;
+    @FXML
+    private TableView<DemoClass> tableViewCollum;
 
     @FXML
     void AddCOnAction(ActionEvent event) {
         textAreaFxif.clear();
 
         if (hset.size()==0){
+            tableViewCollum.getItems().add(new DemoClass(
+                    SelCouseChoiscoxFxid.getValue(),
+                            StudentIdfxid.getText(),
+                            schilarshopInPercentfxid.getText(),
+                            SelCouseChoiscoxFxid.getValue(), "info"));
+//                public DemoClass(String id, String hsc, String addc, String prc, String info) {
 
             hset.add(SelCouseChoiscoxFxid.getValue());
 
@@ -52,6 +73,14 @@ public class CourseResController {
             textAreaFxif.setText("Uour selected \ncoure already added \n  Add a new course");
         }
         else {
+
+            tableViewCollum.getItems().add(new DemoClass(
+                    SelCouseChoiscoxFxid.getValue(),
+                    StudentIdfxid.getText(),
+                    schilarshopInPercentfxid.getText(),
+                    SelCouseChoiscoxFxid.getValue(), "info"));
+
+//                public DemoClass(String id, String hsc, String addc, String prc, String info) {
             hset.add(SelCouseChoiscoxFxid.getValue());
 
             c2arr.add(hs2.get(SelCouseChoiscoxFxid.getValue()));
@@ -69,7 +98,7 @@ public class CourseResController {
 
 
         }
-        textAreaFxif.appendText("\n\n"+s);
+        textAreaFxif.appendText("\n\n   "+   s);
 
 
 
@@ -92,7 +121,7 @@ HashSet<String> hset=new HashSet<>();
             }
 
             s=s+", Scholarship : true , "+schilarshopInPercentfxid.getText()
-            +"  Tusion fee per credit : 6000 taka\n Registerd course :\n ";
+            +"%  Tusion fee per credit : 6000 taka\n Registerd course :\n ";
 
 
             for(Course c:c2arr){
@@ -118,6 +147,31 @@ HashSet<String> hset=new HashSet<>();
 System.out.println();
         }
         else{
+            Integer cr=0;
+            for(Course sk : c2arr){
+                cr=cr+sk.getCer();
+
+            }
+
+            s=s+", Scholarship : false , 0 % "
+                    +"  Tusion fee per credit : 6000 taka\n Registerd course :\n ";
+
+            for(Course c:c2arr){
+                s=s+"Course"+c.toString()+"\n";
+
+
+
+
+            }
+
+
+            s=s+"\n\n\n\n\n  Credit enroled : "+cr+". Total payble amount :"+
+
+
+                    (cr*6000)
+
+
+                    +" taka only";
 
 
         }
@@ -133,6 +187,13 @@ ArrayList<Course> coarr= new ArrayList<>();
     HashMap<String,Course> hs2 =new HashMap<>();
     @FXML
     void initialize() {
+        idcollum.setCellValueFactory (new PropertyValueFactory<DemoClass,String>("Id"));
+        scCollum.setCellValueFactory (new PropertyValueFactory<DemoClass,String>("Hsc"));
+        addCourseCollum.setCellValueFactory (new PropertyValueFactory<DemoClass,String>("Addc"));
+        procidCourseCollum.setCellValueFactory (new PropertyValueFactory<DemoClass,String>("Prc"));
+        infoCollum.setCellValueFactory (new PropertyValueFactory<DemoClass,String>("Info"));
+
+
 
 
 //        (String name, String type, Integer sec, Integer cer) {
